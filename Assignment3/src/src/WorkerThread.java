@@ -18,7 +18,7 @@ public class WorkerThread implements Runnable {
 		synchronized(this) {
 		while(WorkerThread.startIndex< this.list.size()) {
 			try {
-			//Thread.sleep(1);
+			Thread.sleep(1);
 				
 			}
 			catch (Exception e){}
